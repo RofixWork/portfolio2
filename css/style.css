@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  opacity: .8;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 10px 0;
+  }
+}
+
+.gardient {
+  background: #1f25cc;
+  background: linear-gradient(0deg, #1f25cc 0%, #7501db 100%);
+}
+
+.page-head {
+  padding: 50px 0 0 0;
+}
+
+.page-head .head-title {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.page-head .head-desc {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.companies img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.feat h2 {
+  font-weight: 600;
+}
+
+.feat p {
+  line-height: 1.8;
+}
+
+.feat img {
+  margin-right: 5px;
+}
+
+.icons .icon {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.icons h3 {
+  font-size: 25px;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+.icons p {
+  font-weight: 300;
+  line-height: 2;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
